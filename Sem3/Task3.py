@@ -80,3 +80,5 @@ Q, Z – 10 очков.
 #       if i in points[j]:
 #         count +=j
 # print(count)
+
+# print(sum([k for i in text for k, v in points.items() if i in v]))
