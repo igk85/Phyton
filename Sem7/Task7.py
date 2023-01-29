@@ -47,7 +47,7 @@ print_operation_table(lambda x, y: x * y) Вывод:
 #         mult = []
 #         for j in range(1, num_columns + 1):
 #             mult.append(str(operation(i, j)))
-#         print("    ".join(mult))
+#         print(''.join(f'{e:<4}' for e in answer))
  
  
 # print_operation_table(lambda x, y: x * y)
